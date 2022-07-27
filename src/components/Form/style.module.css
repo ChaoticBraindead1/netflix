@@ -1,0 +1,10 @@
+.form{
+    margin: 0 auto;
+    max-width: 440px;
+    text-align: left;
+    padding: 20px;
+}
+.form form{
+    background-color: red;
+    padding: 20px;
+}

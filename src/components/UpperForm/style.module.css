@@ -1,0 +1,17 @@
+.cards{
+    display: flex;
+    gap: 6px;
+}
+.cards img{
+    width: 40px;
+}
+.steps{
+    color: #333;
+    font-size: 13px;
+    line-height: 19px;
+}
+.title{
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+}
