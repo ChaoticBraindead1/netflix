@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.logo{
+    height: 45px;
+}
+.header a{
+    color: #333;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.header a:hover{
+    text-decoration: underline;
+}

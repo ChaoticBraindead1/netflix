@@ -22,5 +22,6 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "files": ["./node_modules/wmr/types.d.ts"]
 }
