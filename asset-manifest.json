@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/netflix/static/css/main.9a1082b2.css",
-    "main.js": "/netflix/static/js/main.97156ea1.js",
+    "main.css": "/netflix/static/css/main.b34cc7a1.css",
+    "main.js": "/netflix/static/js/main.3f9c627a.js",
     "static/media/mastercard-v2.svg": "/netflix/static/media/mastercard-v2.dc6e1dc61a318c1296f31f4dde5fed8f.svg",
     "static/media/amex-v2.svg": "/netflix/static/media/amex-v2.dd39ea1fb0035e01870e8e87778c75ff.svg",
     "static/media/netflix.svg": "/netflix/static/media/netflix.1b8420f7b3b979ee4c10923a2e264935.svg",
     "static/media/visa-v3.svg": "/netflix/static/media/visa-v3.bd37a379cc4bcbe73f42743fcb42b0d8.svg",
     "index.html": "/netflix/index.html",
-    "main.9a1082b2.css.map": "/netflix/static/css/main.9a1082b2.css.map",
-    "main.97156ea1.js.map": "/netflix/static/js/main.97156ea1.js.map"
+    "main.b34cc7a1.css.map": "/netflix/static/css/main.b34cc7a1.css.map",
+    "main.3f9c627a.js.map": "/netflix/static/js/main.3f9c627a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a1082b2.css",
-    "static/js/main.97156ea1.js"
+    "static/css/main.b34cc7a1.css",
+    "static/js/main.3f9c627a.js"
   ]
 }
