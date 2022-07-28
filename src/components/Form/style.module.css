@@ -5,6 +5,50 @@
     padding: 20px;
 }
 .form form{
-    background-color: red;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.input{
+    position: relative;
+    margin-bottom: 10px;
+}
+.input input{
+    height: 60px;
+    padding: 10px 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input label{
+    font-size: 16px;
+    color: #8c8c8c;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.input input:focus ~ label,
+.input input:valid ~ label {
+    font-size: 13px;
+    font-weight: 700;
+    top: 13px;
+}
+.submit{
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    min-height: 64px;
+    min-width: 110px;
+    padding: 20.5px 2em;
+    width: 100%;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 25%);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 24px;
 }

@@ -8,10 +8,35 @@ const Form = () => {
     <div className={styles.form}>
       <UpperForm />
       <form>
-        <h1>form here</h1>
-        <input type="text" />
+      <div className={styles.input}>
+          <input type="text" id='fname'/>
+          <label htmlFor="fname">First name</label>
+        </div>
+        <div className={styles.input}>
+          <input type="text" id='lname'/>
+          <label htmlFor="lname">Last name</label>
+        </div>
+        <div className={styles.input}>
+          <input type="text" id='email'/>
+          <label htmlFor="email">Email</label>
+        </div>
+        <div className={styles.input}>
+          <input type="text" id='cardnumber'/>
+          <label htmlFor="cardnumber">Card number</label>
+        </div>
+        <div className={styles.input}>
+          <input type="text" id='expdate'/>
+          <label htmlFor="expdate">Expiration date (MM/YY)</label>
+        </div>
+        <div className={styles.input}>
+          <input type="text" id='ccv'/>
+          <label htmlFor="ccv">Security code (CCV)</label>
+        </div>
+
+        <Terms />
+        
+        <input type="submit" className={styles.submit} value="Update Payment Info"/>
       </form>
-      <Terms />
     </div>
   )
 }
