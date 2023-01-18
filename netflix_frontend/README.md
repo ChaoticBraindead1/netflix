@@ -31,7 +31,7 @@ Start the server
 
 ## Tech Stack
 
-**FrontEnd:** ReactJS, TypeScript, Redux-Toolkit, RTK Query, FontAwesome
+**FrontEnd:** ReactJS, TypeScript, Redux-Toolkit, RTK Query, FontAwesome, ttttt
 
 ## Links of Documentations
 - [React (Frontend Library)](https://reactjs.org/)
